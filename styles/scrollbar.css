@@ -1,0 +1,16 @@
+@import "colors.css";
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: var(--scrollbar-track); 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--black); 
+}
